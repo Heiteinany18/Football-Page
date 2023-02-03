@@ -1,0 +1,212 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .header-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .header-info > .about-us > p,
+  .highlights {
+    font-size: 16px;
+  }
+
+  /*  FOR DROP DOWN MENU  */
+  .header-info > .nav-link > .drop-down-menu {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  /*  Hides navigation menu links  */
+  .header-info > .nav-link > ul {
+    display: none;
+  }
+
+  .header-info > .about-us,
+  .highlights {
+    height: 30px;
+    padding: 10px;
+  }
+
+  /*  FOR TIME  */
+  header > .date1 {
+    height: 30px;
+    width: 70px;
+    font-size: 10px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img > img {
+    height: 300px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img > a > div > h4 {
+    font-size: 12px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img > a > div > p {
+    font-size: 10px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > img {
+    height: 150px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info1 {
+    position: absolute;
+    top: 60px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info1 > h4 {
+    font-size: 12px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info1 > p {
+    font-size: 10px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info2 {
+    bottom: 6px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info2 > h4 {
+    font-size: 12px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info2 > p {
+    font-size: 10px;
+  }
+}
+
+/*  FOR HIGHLIGHTS DETAILS  */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .highlights-details > .item > .highlight-img > a > img {
+    width: 150px;
+    height: 100px;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+
+  .highlights-details > .item > .highlight-img {
+    border-bottom: 2px solid var(--bs-gray-600);
+    margin: 5px;
+    padding: 0px;
+    height: 110px;
+  }
+
+  .highlights-details > .item > .highlight-img > a > div > h4 {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+
+  .highlights-details > .item > .highlight-img > a > div > p {
+    font-size: 10px;
+  }
+}
+
+/*  FOR FOOTER */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .footer-wrapper {
+    font-size: 70%;
+  }
+
+  .footer-wrapper > .footer > .footer-logo > a > img {
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+  .header-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .header-info > .about-us > p,
+  .highlights {
+    font-size: 16px;
+  }
+
+  /*  FOR DROP DOWN MENU  */
+  .header-info > .nav-link > .drop-down-menu {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+
+  /*  Hides navigation menu links  */
+  .header-info > .nav-link > ul {
+    display: none;
+  }
+
+  .header-info > .about-us,
+  .highlights {
+    height: 30px;
+    padding: 10px;
+  }
+
+  /*  FOR TIME  */
+  header > .date1 {
+    height: 30px;
+    width: 70px;
+    font-size: 10px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img > img {
+    height: 300px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img > a > div > h4 {
+    font-size: 14px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img > a > div > p {
+    font-size: 12px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > img {
+    height: 150px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info1 {
+    position: absolute;
+    top: 60px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info1 > h4 {
+    font-size: 14px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info1 > p {
+    font-size: 12px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info2 {
+    bottom: 6px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info2 > h4 {
+    font-size: 14px;
+  }
+
+  .highlights-wrapper > .highlights-info > .img1 > a > .img-info2 > p {
+    font-size: 12px;
+  }
+
+  .footer-wrapper {
+    font-size: 80%;
+  }
+
+  .footer-wrapper > .footer > .footer-logo > a > img {
+    width: 150px;
+  }
+}

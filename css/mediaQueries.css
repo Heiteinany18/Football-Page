@@ -1,0 +1,483 @@
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+  body {
+    height: 100%;
+    font-size: 70%;
+  }
+
+  /*  FOR LOGO  */
+  .header-details > .logo > a > img {
+    width: 80px;
+  }
+
+  /*  FOR DROP DOWN MENU  */
+  .header-details > .nav-links > .drop-down {
+    z-index: 1;
+    display: block;
+  }
+
+  /*  Hides navigation menu links  */
+  .header-details > .nav-links > ul {
+    display: none;
+  }
+
+  /*  For time & date  */
+  .nav-second-links > .date1 {
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+}
+
+/*  MEDIA QUERIES FOR NAVIGATION MENU  */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  html,
+  body {
+    font-size: 80%;
+  }
+
+  /*  FOR LOGO  */
+  .header-details > .logo > a {
+    color: var(--bs-green);
+    font-size: 14px;
+  }
+
+  /*  FOR DROP DOWN MENU  */
+  .header-details > .nav-links > .drop-down {
+    z-index: 1;
+    display: block;
+  }
+
+  /*  Hides navigation menu links  */
+  .header-details > .nav-links > ul {
+    display: none;
+  }
+
+  /*  navigation menu cartigories */
+  .cartigories > a {
+    margin: auto 0px;
+  }
+
+  /*  navigation menu cartigories image  */
+  .cartigories > a > img {
+    width: 32px;
+    object-fit: cover;
+  }
+
+  /*  navigation second menu links  */
+  .nav-second-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-second-links > ul {
+    position: absolute;
+    left: 5px;
+  }
+
+  .nav-second-links > ul > li {
+    list-style: none;
+    margin: 0 0px;
+  }
+
+  /*  For time & date  */
+  .nav-second-links > .date1 {
+    height: 30px;
+    position: absolute;
+    right: 5px;
+    padding: 10px 5px;
+    font-size: 10px;
+  }
+
+  .nav-second-links > ul > li > a {
+    color: var(--bs-gray-400);
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  input[type="datetime-local"] {
+    display: none;
+  }
+}
+
+/*  MEDIA QUERIES FOR LIVE STREAM  */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .live-socer-wrapper > p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px;
+  }
+
+  .live-socer-wrapper > .live-scr-heading > p {
+    font-size: 16px;
+  }
+
+  .live-socer-wrapper > .live-scr-heading > a {
+    font-size: 16px;
+  }
+
+  .live-socer > .live-socer-wrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  }
+
+  .live-socer > .live-socer-wrapper2 > div {
+    width: 90px;
+    margin: 0px;
+    background: linear-gradient(var(--bs-green), #b2cac587);
+  }
+
+  .live-socer > .live-socer-wrapper2 > .item {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .live-socer > .live-socer-wrapper2 > .item > a > button {
+    width: 75px;
+    font-size: 10px;
+    font-weight: 550;
+  }
+}
+
+/*  MEDIA QUERIES FOR SECTION A  */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .serie-title {
+    margin: 0 10px;
+  }
+
+  .serie-title > div {
+    width: 60px;
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .serie-title > div::before {
+    width: 50px;
+    height: 31px;
+  }
+
+  .serie-A > a > .details {
+    margin: 0 10px;
+    padding: 0px;
+    height: 50px;
+    font-size: 9px;
+  }
+
+  .serie-A > a > .details > .date {
+    width: 10%;
+  }
+
+  .serie-A > a > .details > .time {
+    width: 10%;
+  }
+
+  .serie-A > a > .details > .serie {
+    width: 20%;
+  }
+
+  .serie-A > a > .details > .team1,
+  .team2 {
+    width: 20%;
+  }
+
+  .serie-A > a > .details > .goals {
+    width: 6%;
+    font-weight: 550;
+    text-align: center;
+  }
+
+  /*  FOR LEAGUE  */
+  .section-a > .league-title {
+    margin: 0 10px;
+  }
+
+  .league-title > div {
+    width: 90px;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .league-title > div::before {
+    width: 90px;
+  }
+
+  /*  LIGA DE EXPANSION MX  */
+  .Liga {
+    margin: 0 10px;
+  }
+
+  .Liga > div {
+    width: 110px;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .Liga > div::before {
+    width: 110px;
+  }
+
+  /*  FOR PREMIER LEAGUE  */
+  .premier-league {
+    margin: 0 10px;
+  }
+
+  .premier-league > div {
+    width: 90px;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .premier-league > div::before {
+    width: 90px;
+  }
+
+  /*  FOR MAJOR LEAGUE SOCER  */
+  .major-league {
+    margin: 0 10px;
+  }
+
+  .major-league > div {
+    width: 110px;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .major-league > div::before {
+    width: 110px;
+  }
+
+  /*  FOR USL-CHAMPOINSHIP */
+  .usl-championship {
+    margin: 0 10px;
+  }
+
+  .usl-championship > div {
+    width: 100px;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .usl-championship > div::before {
+    width: 100px;
+  }
+}
+
+/*  MEDIA QUERIES FOR NAVIGATION MENU  */
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+  /*  FOR LOGO  */
+  .header-details > .logo > a {
+    color: var(--bs-green);
+    font-size: 14px;
+  }
+
+  /*  Hides navigation menu links  */
+  .header-details > .nav-links > ul {
+    display: none;
+  }
+
+  .header-details > .nav-links > ul > li {
+    list-style: none;
+    margin: 0px;
+  }
+
+  /*  FOR DROP DOWN MENU  */
+  .header-details > .nav-links > .drop-down {
+    z-index: 1;
+    display: block;
+  }
+
+  /*  navigation menu cartigories */
+  .cartigories > a {
+    margin: auto 5px;
+    font-size: 14px;
+  }
+
+  /*  navigation menu cartigories image  */
+  .cartigories > a > img {
+    width: 42px;
+    object-fit: cover;
+  }
+
+  /*  navigation second menu links  */
+  .nav-second-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-second-links > ul > li {
+    list-style: none;
+    margin: 0 0px;
+  }
+
+  .nav-second-links > ul > li > a {
+    color: var(--bs-gray-400);
+    text-decoration: none;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  /*  For time & date  */
+  .nav-second-links > .date1 {
+    height: 40px;
+    position: absolute;
+    right: 5px;
+    padding: 10px 5px;
+    font-size: 14px;
+  }
+}
+
+/*  MEDIA QUERIES FOR NAVIGATION MENU  */
+@media only screen and (min-width: 640px) and (max-width: 745px) {
+  .header-details {
+    margin-bottom: 0px;
+  }
+
+  .header-details > .nav-links > ul > li {
+    list-style: none;
+    margin: 0 5px;
+  }
+
+  .header-details > .nav-links > ul > li > a {
+    padding: 0px;
+    transition: 0.2s linear;
+    font-size: 12px;
+  }
+
+  /*  navigation menu cartigories */
+  .cartigories > a {
+    margin: auto 5px;
+    font-size: 12px;
+  }
+
+  /*  navigation menu cartigories image  */
+  .cartigories > a > img {
+    width: 42px;
+    object-fit: cover;
+  }
+
+  .nav-second-links {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+
+  .nav-second-links > ul > li {
+    list-style: none;
+    margin: 0 0px;
+  }
+
+  .nav-second-links > ul > li > a {
+    color: var(--bs-gray-400);
+    text-decoration: none;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  /*  For time & date  */
+  .nav-second-links > .date1 {
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    padding: 10px 5px;
+    font-size: 12px;
+  }
+
+  .live-socer > .live-socer-wrapper2 > .item > a > button {
+    font-size: 12px;
+  }
+
+  .live-socer > .live-socer-wrapper2 > .item > p {
+    font-size: 14px;
+  }
+}
+
+/*  MEDIA QUERIES FOR LIVE STREAM  */
+@media only screen and (min-width: 480px) and (max-width: 540px) {
+  .live-socer-wrapper > p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px;
+  }
+
+  .live-socer-wrapper > .live-scr-heading > p {
+    font-size: 16px;
+  }
+
+  .live-socer-wrapper > .live-scr-heading > a {
+    font-size: 16px;
+  }
+
+  .live-socer > .live-socer-wrapper2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  }
+
+  .live-socer > .live-socer-wrapper2 > div {
+    width: 90px;
+    margin: 0px;
+    background: linear-gradient(var(--bs-green), #b2cac587);
+  }
+
+  .live-socer > .live-socer-wrapper2 > .item {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .live-socer > .live-socer-wrapper2 > .item > a > button {
+    width: 75px;
+    font-size: 10px;
+    font-weight: 550;
+  }
+}
+
+/*  MEDIA QUERIES FOR FOOTER  */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /*  FOR FOOTER  */
+  .footer-wrapper > .footer > .footer-logo > a > img {
+    width: 150px;
+    object-fit: cover;
+  }
+}
+
+/*  MEDIA QUERIES FOR FOOTER  */
+/*  For smaller mobile phones like( JioPhone 2 and Galaxy Fold )  */
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+  /*  FOR FOOTER  */
+
+  .footer-wrapper > .footer > .footer-logo > a > img {
+    width: 100px;
+    object-fit: cover;
+  }
+
+  /*  Footer social links  */
+  .social-icon > ul > li > a {
+    margin: 5px;
+    font-size: 16px;
+  }
+
+  /*  Footer navigation list  */
+  .footer-wrapper > .footer > .footer-link > ul > li {
+    display: inline;
+    list-style: none;
+    margin: 2px;
+  }
+
+  /*  Footer navigation link  */
+  .footer-wrapper > .footer > .footer-link > ul > li > a {
+    font-size: 10px;
+  }
+
+  /*  For copyright  */
+  .copyrights {
+    font-size: 10px;
+  }
+}

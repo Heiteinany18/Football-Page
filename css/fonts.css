@@ -1,0 +1,11 @@
+/*  font-family: Abel  */
+@font-face {
+  font-family: Abel;
+  src: url("../font/Abel/Abel-Regular.ttf");
+}
+
+/*  font-family: Roboto-Regular  */
+@font-face {
+  font-family: Roboto;
+  src: url("../font/Roboto/Roboto-Light.ttf");
+}

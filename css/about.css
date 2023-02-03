@@ -1,0 +1,355 @@
+:root {
+  /*   COLORS  */
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --yellowGreen: #ac0;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+
+  /*  FONTS  */
+  --Roboto-font: Roboto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: var(--bs-gray-300) center center no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.container-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+}
+
+/*  FOR TIME  */
+header > .date1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: var(--bs-gray-400);
+  padding: 10px;
+  box-shadow: inset 0 0 1px var(--bs-green), 0 0 5px #232323;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  margin: 10px;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  z-index: 1;
+}
+
+.header-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  position: relative;
+  background: var(--bs-gray-900);
+}
+
+.header-info > div {
+  margin: auto;
+}
+
+.header-info > .about-us,
+.highlights {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--bs-gray-400);
+  background: var(--bs-green);
+  height: 70px;
+  padding: 10px;
+}
+
+.header-info > .about-us > p,
+.highlights {
+  font-size: 30px;
+}
+
+/*  FOR DROP DOWN MENU  */
+.header-info > .nav-link > .drop-down-menu {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  z-index: 1;
+  display: none;
+}
+
+.header-info > .nav-link > .drop-down-menu > li {
+  list-style: none;
+}
+
+.header-info > .nav-link > .drop-down-menu > li > i {
+  color: var(--bs-gray-400);
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header-info > .nav-link > .drop-down-menu > li > .sub-drop-down-menu {
+  width: 200px;
+  background: var(--bs-gray-800);
+  position: absolute;
+  top: 18px;
+  left: -165px;
+  display: none;
+}
+
+.header-info > .nav-link > .drop-down-menu > li:hover .sub-drop-down-menu {
+  list-style: none;
+  display: block;
+}
+
+.header-info
+  > .nav-link
+  > .drop-down-menu
+  > li
+  > .sub-drop-down-menu
+  > ul
+  > li {
+  list-style: none;
+}
+
+/*  For Drop down links  */
+.header-info
+  > .nav-link
+  > .drop-down-menu
+  > li
+  > .sub-drop-down-menu
+  > ul
+  > li
+  > a {
+  text-decoration: none;
+  color: var(--bs-gray-400);
+  font-size: 14px;
+  padding: 5px 0 0 10px;
+  display: flex;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s linear;
+}
+
+.header-info
+  > .nav-link
+  > .drop-down-menu
+  > li:hover
+  .sub-drop-down-menu
+  > ul
+  > li
+  > a:hover {
+  background: var(--bs-green);
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid;
+}
+
+.header-info
+  > .nav-link
+  > .drop-down-menu
+  > li:hover
+  .sub-drop-down-menu
+  > ul
+  > li
+  > .active {
+  background: var(--bs-green);
+  border-bottom: 1px solid;
+}
+
+/*  For Drop down icons  */
+.header-info
+  > .nav-link
+  > .drop-down-menu
+  > li
+  > .sub-drop-down-menu
+  > ul
+  > li
+  > a
+  > i {
+  padding-right: 5px;
+}
+
+/*  For Drop down login  */
+.header-info
+  > .nav-link
+  > .drop-down-menu
+  > li
+  > .sub-drop-down-menu
+  > ul
+  > li
+  > .login {
+  color: var(--bs-green);
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+
+.header-info
+  > .nav-link
+  > .drop-down-menu
+  > li
+  > .sub-drop-down-menu
+  > ul
+  > li
+  > .login:hover {
+  color: var(--bs-gray-400);
+}
+
+/*  FOR MAIN MENU  */
+.header-info > .nav-link {
+  width: 100%;
+  display: grid;
+  place-content: end;
+}
+
+.header-info > .nav-link > ul {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: -40px;
+  right: 20px;
+}
+
+.header-info > .nav-link > ul > li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+.header-info > .nav-link > ul > li > a {
+  text-decoration: none;
+  color: var(--bs-gray-400);
+  padding: 5px;
+  transition: 0.2s linear;
+}
+
+.header-info > .nav-link > ul > li > a:hover {
+  border-bottom: 2px solid var(--bs-green);
+}
+
+.header-info > .nav-link > ul > li > .login {
+  color: var(--yellowGreen);
+  background: var(--bs-success);
+  padding: 5px 6px;
+  margin-left: 10px;
+  font-weight: 520;
+}
+
+.header-info > .nav-link > ul > li > .active {
+  border-bottom: 2px solid var(--bs-green);
+}
+
+.header-info > .nav-link > ul > li > .active > i {
+  color: var(--bs-green);
+}
+
+.header-info > .nav-link > ul > li > a:hover i {
+  border: none;
+  color: var(--bs-green);
+}
+
+.header-info > .nav-link > ul > li > .login:hover {
+  border: none;
+  color: var(--bs-gray-400);
+}
+
+/*  ABOUT INFO  */
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info > .about-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background: #eeb509d1;
+  color: var(--bs-green);
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.info > .about-zedsport {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info > .about-zedsport > div {
+  width: 80%;
+  margin-top: 50px;
+}
+
+.info > .about-zedsport > div > img {
+  width: 200px;
+  float: left;
+  padding-right: 10px;
+}
+
+.info > .about-zedsport > div > p {
+  word-break: break-all;
+  letter-spacing: 0.7px;
+  line-height: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.info > .about-zedsport > div > p::first-letter {
+  color: var(--bs-green);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.info > .about-zedsport > div > div > p {
+  margin-bottom: 20px;
+  word-break: break-all;
+  letter-spacing: 0.7px;
+  line-height: 25px;
+  font-weight: 500;
+}
